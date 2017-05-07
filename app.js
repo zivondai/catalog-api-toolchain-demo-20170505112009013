@@ -9,6 +9,11 @@ var appEnv = cfenv.getAppEnv();
 cloudantService = appEnv.getService("myMicroservicesCloudant");
 var items = require('./routes/items');
 
+var testziv = '0';
+
+//create error
+create error 
+
 //Setup middleware.
 var app = express();
 app.use(cors());
